@@ -1,0 +1,58 @@
+body {
+    text-align: center;
+    background: url('../Images/background.jpeg');
+    background-repeat: no-repeat;
+
+}
+h1,h3{
+    color:teal
+}
+p {
+     font-size: 95.5%;
+     font-family: verdana;
+ }
+ ul{
+     font-family: verdana;
+     list-style: none;
+ }
+ a:link{
+     color: purple;
+ }
+ .square {
+    position: float; /* or absolute*/
+    top: 50%;
+    bottom: 50%
+    left: 50%;
+    right: 50%
+    width:700px;
+     height:700px;
+     background-color:rgb(255, 255, 255)
+ }
+ img{
+     border-radius:50%;
+ }
+ table{ 
+   width:50%;
+    border-collapse:collapse;
+ }
+
+ table,td,th,tr{
+     border: 1px solid rgba(68, 188, 196, 0.775);
+    
+ }
+.center{
+    margin-left:auto;
+    margin-right:auto;
+}
+form{
+    margin-left:auto;
+    margin-right:auto;
+    padding:8px;
+    text-decoration-color: teal;
+}
+#para1{
+    color: teal;
+}
+#ul1{
+    color:teal
+}
